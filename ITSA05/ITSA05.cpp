@@ -4,7 +4,7 @@
 using namespace std;
 using std::bitset;
 
-string toBinary(int n)
+string f(int n)
 {
     string r;
     while (n != 0){
@@ -18,7 +18,7 @@ int main() {
     
     int n;
     cin >> n;
-    bitset<8> bs(n);
-    cout << bs << endl;
+    bitset<8> x(n);
+    cout << x << endl;
 
     return 0;}
