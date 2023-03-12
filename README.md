@@ -36,6 +36,8 @@ int main (){
         return 0;  
 }  
 ```
+![image](https://user-images.githubusercontent.com/125545260/224548970-49b49f20-f7bc-4e77-8e20-eda29eb9b76c.png)
+
 
 ## **ITSA_04**
 ### 問題描述：
