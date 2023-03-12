@@ -1,27 +1,23 @@
 # **HomeWork_1**
 
 ## **ITSA_02**
-
+123
 ## **ITSA_03**
 ### 問題敘述:
 有一圓形，直徑為200，且中心座標為(0,0)。請寫一支程式可以輸入「點」的座標，並判斷「點」是否在圓形的範圍內。如果「點」的位置剛好在邊界的話也算是在圓形範圍內(例：x=100，y=0)。
-
 ![題目](https://i.imgur.com/wyAwvAt.png)
 
 ### 輸入說明:
 輸入一整數座標，依序分別X與Y。
 ### 輸出說明:
 輸出此座標位置在圓內或圓外訊息。
-
 ![範例](https://i.imgur.com/xuKxIXR.png)
-
 a=x座標
 b=y座標
 sqrt()可將括弧內的數值開根號。
-
 透過畢氏定理兩邊長平方開根號透過if...else來判斷斜邊和半徑的大小(如果斜邊<=半徑 輸出 inside 否則 輸出outside)
 
-```cpp
+```
 int main (){  
     int a,b;  
     cin >> a >> b ;  
@@ -36,8 +32,7 @@ int main (){
         return 0;  
 }  
 ```
-![image](https://user-images.githubusercontent.com/125545260/224548970-49b49f20-f7bc-4e77-8e20-eda29eb9b76c.png)
-
+![](https://i.imgur.com/8BtvlSz.png)
 
 ## **ITSA_04**
 ### 問題描述：
