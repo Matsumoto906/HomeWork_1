@@ -1,6 +1,6 @@
 # **HomeWork_1**
 
-## **ITSA_02
+## **ITSA_02**
 ### 問題描述：
 試撰寫一程式，可由鍵盤輸入英哩，程式的輸出為公里，其轉換公式如下：
 1 英哩= 1.6 公里
@@ -12,7 +12,7 @@
 輸出公里(double)，取到小數點以下第一位。
 [範例]![](https://i.imgur.com/BK4HoIP.png)
 n=公里數
-通過將 fixed 和 setprecision 结合起来使用，得到所需的輸出结果。
+使用 fixed 和 setprecision(小數位數) 輸出结果。
 
 ```
 int main()
