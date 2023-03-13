@@ -50,7 +50,7 @@ sqrt()可將括弧內的數值開根號。
 
 
 
-```
+```cpp
 int main (){  
     int a,b;  
     cin >> a >> b ;  
