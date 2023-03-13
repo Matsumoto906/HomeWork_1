@@ -14,7 +14,7 @@
 n=公里數
 使用 fixed 和 setprecision(小數位數) 輸出结果。
 
-```
+```cpp
 int main()
 {
     int n;
