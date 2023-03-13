@@ -1,23 +1,51 @@
 # **HomeWork_1**
 
-## **ITSA_02**
-123
+## **ITSA_02
+### 問題描述：
+試撰寫一程式，可由鍵盤輸入英哩，程式的輸出為公里，其轉換公式如下：
+1 英哩= 1.6 公里
+
+### 輸入說明：
+輸入欲轉換之英哩數(int)。
+
+### 輸出說明：
+輸出公里(double)，取到小數點以下第一位。
+[範例]![](https://i.imgur.com/BK4HoIP.png)
+n=公里數
+通過將 fixed 和 setprecision 结合起来使用，得到所需的輸出结果。
+
+```
+int main()
+{
+    int n;
+    while(cin>>n){
+    double ans=n*1.6; 
+    cout<<fixed<<setprecision(1)<<ans<<"\n";
+    }
+     
+    return 0;   
+}
+
+```
+![](https://i.imgur.com/mC4vojR.png)
+
+
 ## **ITSA_03**
 ### 問題敘述:
 有一圓形，直徑為200，且中心座標為(0,0)。請寫一支程式可以輸入「點」的座標，並判斷「點」是否在圓形的範圍內。如果「點」的位置剛好在邊界的話也算是在圓形範圍內(例：x=100，y=0)。
-
 ![題目](https://i.imgur.com/wyAwvAt.png)
 
 ### 輸入說明:
 輸入一整數座標，依序分別X與Y。
 ### 輸出說明:
 輸出此座標位置在圓內或圓外訊息。
-
 ![範例](https://i.imgur.com/xuKxIXR.png)
 a=x座標
 b=y座標
 sqrt()可將括弧內的數值開根號。
 透過畢氏定理兩邊長平方開根號透過if...else來判斷斜邊和半徑的大小(如果斜邊<=半徑 輸出 inside 否則 輸出outside)
+
+
 
 ```
 int main (){  
@@ -34,7 +62,7 @@ int main (){
         return 0;  
 }  
 ```
-![](https://i.imgur.com/8BtvlSz.png)
+![2](https://i.imgur.com/8BtvlSz.png)
 
 ## **ITSA_04**
 ### 問題描述：
@@ -100,3 +128,45 @@ string f(int n)
 
 
 ## **ITSA_06**
+### 問題描述:
+試撰寫一程式，可輸入月份，然後判斷其所屬的季節（ 3~5 月為春季，6~8 月為夏季， 9~11 月為秋季， 12~2 月為冬季）。
+### 輸入說明:
+輸入月份。
+### 輸出說明:
+輸出該月份的季節， 3~5 月為春季(Spring)， 6~8 月為夏季(Summer)， 9~11 月為秋季(Autumn)， 12~2 月為冬季(Winter)。
+### 範例:
+![](https://i.imgur.com/wHcZ49L.png
+
+設輸入月份為M，使用if判斷輸入值的範圍，將四種季節的月份範圍列出，即輸出該月份對應的季節。
+```cpp
+#include <iostream>    
+using namespace std;    
+int main()    
+{    
+    int M;    
+    while( cin >> M )    
+    {    
+        if (M>=3 and M<=5)    
+        {    
+            cout << "Spring" << endl;    
+        }    
+        if (M>=6 and M<=8)    
+        {    
+            cout << "Summer" << endl;     
+        }    
+        if (M>=9 and M<=11)    
+        {    
+            cout << "Autumn" << endl;    
+        }    
+        if (M<=2 or M==12)    
+        {    
+            cout << "Winter" << endl;    
+        }    
+    }    
+        
+    return 0;    
+}  
+```
+![](https://i.imgur.com/2cUq4Xt.png)
+
+
